@@ -5,6 +5,8 @@
 
 let currentColour = null;
 
+let editing = false;
+
 // Set the active colour when the modal opens
 function setCurrentColour(colour) {
     currentColour = colour;
@@ -48,114 +50,72 @@ const percent = {
 
 };
 
-document.getElementById("formulaBars").innerHTML = `
+const pigments = [
 
-<div class="formulaBar">
+    { key:"red", label:"🔴 Red Pigment", class:"red" },
 
-    <div class="formulaTitle">
+    { key:"yellow", label:"🟡 Yellow Pigment", class:"yellow" },
 
-        <span>🔴 Red Pigment</span>
+    { key:"blue", label:"🔵 Blue Pigment", class:"blue" },
 
-        <span>${values.red.toFixed(2)} ml • ${percent.red}%</span>
+    { key:"green", label:"🟢 Green Pigment", class:"green" },
 
-    </div>
+    { key:"black", label:"⚫ Black Pigment", class:"black" }
 
-    <div class="progress">
+];
 
-        <div
-            class="progressFill red"
-            style="width:${percent.red}%">
+let html = "";
+
+pigments.forEach(p=>{
+
+    html += `
+
+    <div class="formulaBar">
+
+        <div class="formulaTitle">
+
+            <span>${p.label}</span>
+
+            <span>
+
+                ${
+                    editing
+                    ?
+
+                    `<input
+                        id="${p.key}Input"
+                        type="number"
+                        value="${values[p.key].toFixed(2)}"
+                        step="0.5"
+                        min="0"
+                        class="formulaInput">`
+
+                    :
+
+                    `${values[p.key].toFixed(2)} ml • ${percent[p.key]}%`
+
+                }
+
+            </span>
+
+        </div>
+
+        <div class="progress">
+
+            <div
+                class="progressFill ${p.class}"
+                style="width:${percent[p.key]}%">
+            </div>
+
         </div>
 
     </div>
 
-</div>
+    `;
 
-<div class="formulaBar">
+});
 
-    <div class="formulaTitle">
-
-        <span>🟡 Yellow Pigment</span>
-
-        <span>${values.yellow.toFixed(2)} ml • ${percent.yellow}%</span>
-
-    </div>
-
-    <div class="progress">
-
-        <div
-            class="progressFill yellow"
-            style="width:${percent.yellow}%">
-        </div>
-
-    </div>
-
-</div>
-
-<div class="formulaBar">
-
-    <div class="formulaTitle">
-
-        <span>🔵 Blue Pigment</span>
-
-        <span>${values.blue.toFixed(2)} ml • ${percent.blue}%</span>
-
-    </div>
-
-    <div class="progress">
-
-        <div
-            class="progressFill blue"
-            style="width:${percent.blue}%">
-        </div>
-
-    </div>
-
-</div>
-
-<div class="formulaBar">
-
-    <div class="formulaTitle">
-
-        <span>🟢 Green Pigment</span>
-
-        <span>${values.green.toFixed(2)} ml • ${percent.green}%</span>
-
-    </div>
-
-    <div class="progress">
-
-        <div
-            class="progressFill green"
-            style="width:${percent.green}%">
-        </div>
-
-    </div>
-
-</div>
-
-<div class="formulaBar">
-
-    <div class="formulaTitle">
-
-        <span>⚫ Black Pigment</span>
-
-        <span>${values.black.toFixed(2)} ml • ${percent.black}%</span>
-
-    </div>
-
-    <div class="progress">
-
-        <div
-            class="progressFill black"
-            style="width:${percent.black}%">
-        </div>
-
-    </div>
-
-</div>
-
-`;
+document.getElementById("formulaBars").innerHTML = html;
 }
 
 // Standard bucket size selector

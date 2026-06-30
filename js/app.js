@@ -122,3 +122,6 @@ searchInput.addEventListener("input", function () {
 // ======================================
 
 loadColours();
+
+document.getElementById("exportBtn").onclick =
+    exportDatabase;

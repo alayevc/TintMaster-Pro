@@ -527,3 +527,69 @@ body{
 .black{
     background:#424242;
 }
+
+/* ==========================
+   Export Button
+========================== */
+
+.search-area{
+
+    display:flex;
+
+    gap:12px;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+#search{
+
+    flex:1;
+
+}
+
+.export-btn{
+
+    background:#1976d2;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+.export-btn:hover{
+
+    background:#125ea7;
+
+}
+
+.formulaInput{
+
+    width:70px;
+
+    padding:6px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    text-align:center;
+
+    font-size:14px;
+
+}

@@ -99,12 +99,6 @@ step="0.1">
 
 </button>
 
-<button id="exportBtn">
-
-📤 Export
-
-</button>
-
 </div>
 
     </div>
@@ -178,8 +172,7 @@ document.getElementById("modalNotes").textContent =
 window.currentColour = colour;
 
 // Enable Edit button
-document.getElementById("editFormulaBtn").onclick = enableEditing; document.getElementById("exportBtn").onclick =
-    exportDatabase;
+document.getElementById("editFormulaBtn").onclick = enableEditing; 
 
 modal.classList.remove("hidden");
 
@@ -207,39 +200,12 @@ modal.onclick = function(e){
 
 function enableEditing(){
 
-    const fields = [
+    editing = true;
 
-        "red",
-        "yellow",
-        "blue",
-        "green",
-        "black"
-
-    ];
-
-    fields.forEach(colour=>{
-
-        const td = document.getElementById(colour + "Formula");
-
-        const value = parseFloat(td.textContent);
-
-        td.innerHTML = `
-
-        <input
-            type="number"
-            id="${colour}Input"
-            value="${value}"
-            step="0.5"
-            min="0"
-            style="
-                width:70px;
-                padding:4px;
-                text-align:center;
-            ">
-
-        `;
-
-    });
+    updateFormula(
+        Number(document.getElementById("bucketSize").value)
+        || 20
+    );
 
     document.getElementById("editFormulaBtn").innerHTML =
         "💾 Save Formula";
@@ -273,6 +239,8 @@ function saveFormula() {
     colour.formula20L.black =
         Number(document.getElementById("blackInput").value);
 
+    editing = false;
+    
     // Refresh the calculator display
     setCurrentColour(colour);
 
@@ -289,5 +257,8 @@ function saveFormula() {
 
     document.getElementById("editFormulaBtn").onclick =
         enableEditing;
+
+    document.getElementById("exportBtn").onclick =
+    exportDatabase;
 
 }
