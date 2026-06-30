@@ -1,0 +1,713 @@
+[
+  {
+    "id": 1,
+    "code": "7082",
+    "name": "Sky Blue",
+    "family": "Blue",
+    "preview": "#BFEFF2",
+    "formula20L": {
+      "red": 0,
+      "yellow": 0,
+      "blue": 35,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Starting formula. Increase blue slightly if too light."
+  },
+
+  {
+    "id": 2,
+    "code": "7084",
+    "name": "Lagoon Blue",
+    "family": "Blue",
+    "preview": "#73D6F0",
+    "formula20L": {
+      "red": 0,
+      "yellow": 0,
+      "blue": 48,
+      "green": 3,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Slight green tint produces lagoon effect."
+  },
+
+  {
+    "id": 3,
+    "code": "0012",
+    "name": "Pilot Blue",
+    "family": "Blue",
+    "preview": "#2E9BEA",
+    "formula20L": {
+      "red": 0,
+      "yellow": 0,
+      "blue": 65,
+      "green": 2,
+      "black": 3
+    },
+    "confidence": "Estimated",
+    "notes": "Deep strong blue."
+  },
+
+  {
+    "id": 4,
+    "code": "N/A",
+    "name": "Blue Babe",
+    "family": "Blue",
+    "preview": "#C9DCE6",
+    "formula20L": {
+      "red": 0,
+      "yellow": 1,
+      "blue": 15,
+      "green": 0,
+      "black": 3
+    },
+    "confidence": "Estimated",
+    "notes": "Muted pastel blue."
+  },
+
+  {
+    "id": 5,
+    "code": "N/A",
+    "name": "Blue Reflection",
+    "family": "Blue",
+    "preview": "#A8D5D7",
+    "formula20L": {
+      "red": 0,
+      "yellow": 2,
+      "blue": 18,
+      "green": 4,
+      "black": 2
+    },
+    "confidence": "Estimated",
+    "notes": "Soft blue-green."
+  },
+
+  {
+    "id": 6,
+    "code": "N/A",
+    "name": "Amazon",
+    "family": "Green",
+    "preview": "#6E938D",
+    "formula20L": {
+      "red": 0,
+      "yellow": 8,
+      "blue": 14,
+      "green": 20,
+      "black": 5
+    },
+    "confidence": "Estimated",
+    "notes": "Deep forest green with blue influence."
+  },
+
+  {
+    "id": 7,
+    "code": "N/A",
+    "name": "Putting Green",
+    "family": "Green",
+    "preview": "#D0DEB3",
+    "formula20L": {
+      "red": 0,
+      "yellow": 14,
+      "blue": 2,
+      "green": 10,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Fresh golf-course green."
+  },
+
+  {
+    "id": 8,
+    "code": "N/A",
+    "name": "Willow Tree",
+    "family": "Green",
+    "preview": "#E5ECD5",
+    "formula20L": {
+      "red": 0,
+      "yellow": 6,
+      "blue": 1,
+      "green": 5,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Very pale willow green."
+  },
+
+  {
+    "id": 9,
+    "code": "6071",
+    "name": "Leaf Green",
+    "family": "Green",
+    "preview": "#7FB95D",
+    "formula20L": {
+      "red": 0,
+      "yellow": 20,
+      "blue": 5,
+      "green": 18,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Natural leaf green."
+  },
+
+  {
+    "id": 10,
+    "code": "6070",
+    "name": "Light Green",
+    "family": "Green",
+    "preview": "#D8EDB6",
+    "formula20L": {
+      "red": 0,
+      "yellow": 12,
+      "blue": 2,
+      "green": 8,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Bright light green."
+  },
+
+  {
+    "id": 11,
+    "code": "0010",
+    "name": "National Green",
+    "family": "Green",
+    "preview": "#1D6A42",
+    "formula20L": {
+      "red": 0,
+      "yellow": 18,
+      "blue": 15,
+      "green": 30,
+      "black": 6
+    },
+    "confidence": "Estimated",
+    "notes": "Deep rich green."
+  },
+
+  {
+    "id": 12,
+    "code": "N/A",
+    "name": "Lemon",
+    "family": "Yellow",
+    "preview": "#F3EA6C",
+    "formula20L": {
+      "red": 1,
+      "yellow": 32,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Bright lemon yellow."
+  },
+
+  {
+    "id": 13,
+    "code": "N/A",
+    "name": "Rose Pink",
+    "family": "Pink",
+    "preview": "#F5B0B6",
+    "formula20L": {
+      "red": 18,
+      "yellow": 3,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Soft rose pink."
+  },
+
+  {
+    "id": 14,
+    "code": "4046",
+    "name": "Off White",
+    "family": "Neutral",
+    "preview": "#F4F1E6",
+    "formula20L": {
+      "red": 1,
+      "yellow": 2,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Warm off-white."
+  },
+    {
+    "id": 15,
+    "code": "3040",
+    "name": "Cream",
+    "family": "Neutral",
+    "preview": "#F3E2BF",
+    "formula20L": {
+      "red": 2,
+      "yellow": 10,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Warm cream."
+  },
+
+  {
+    "id": 16,
+    "code": "3041",
+    "name": "Deep Cream",
+    "family": "Neutral",
+    "preview": "#E8D0A2",
+    "formula20L": {
+      "red": 3,
+      "yellow": 16,
+      "blue": 0,
+      "green": 0,
+      "black": 1
+    },
+    "confidence": "Estimated",
+    "notes": "Richer cream."
+  },
+
+  {
+    "id": 17,
+    "code": "N/A",
+    "name": "Symphony",
+    "family": "Neutral",
+    "preview": "#D8C9BD",
+    "formula20L": {
+      "red": 4,
+      "yellow": 7,
+      "blue": 1,
+      "green": 0,
+      "black": 2
+    },
+    "confidence": "Estimated",
+    "notes": "Soft beige."
+  },
+
+  {
+    "id": 18,
+    "code": "N/A",
+    "name": "Magnolia",
+    "family": "Neutral",
+    "preview": "#F4DDD2",
+    "formula20L": {
+      "red": 4,
+      "yellow": 6,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Warm magnolia."
+  },
+
+  {
+    "id": 19,
+    "code": "N/A",
+    "name": "Wood Smoke",
+    "family": "Brown",
+    "preview": "#BFA796",
+    "formula20L": {
+      "red": 8,
+      "yellow": 10,
+      "blue": 1,
+      "green": 0,
+      "black": 6
+    },
+    "confidence": "Estimated",
+    "notes": "Muted smoky brown."
+  },
+
+  {
+    "id": 20,
+    "code": "N/A",
+    "name": "Tuscan Terracotta",
+    "family": "Orange",
+    "preview": "#D9794F",
+    "formula20L": {
+      "red": 24,
+      "yellow": 14,
+      "blue": 0,
+      "green": 0,
+      "black": 4
+    },
+    "confidence": "Estimated",
+    "notes": "Classic terracotta."
+  },
+
+  {
+    "id": 21,
+    "code": "N/A",
+    "name": "Love Pink",
+    "family": "Pink",
+    "preview": "#F67C97",
+    "formula20L": {
+      "red": 28,
+      "yellow": 4,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Bright pink."
+  },
+
+  {
+    "id": 22,
+    "code": "N/A",
+    "name": "Lilac",
+    "family": "Purple",
+    "preview": "#C5A8D8",
+    "formula20L": {
+      "red": 10,
+      "yellow": 0,
+      "blue": 14,
+      "green": 0,
+      "black": 1
+    },
+    "confidence": "Estimated",
+    "notes": "Soft lilac."
+  },
+
+  {
+    "id": 23,
+    "code": "N/A",
+    "name": "Baby Yellow",
+    "family": "Yellow",
+    "preview": "#FFF2A0",
+    "formula20L": {
+      "red": 0,
+      "yellow": 22,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Very pale yellow."
+  },
+
+  {
+    "id": 24,
+    "code": "N/A",
+    "name": "Straw Berry",
+    "family": "Red",
+    "preview": "#E84F5A",
+    "formula20L": {
+      "red": 24,
+      "yellow": 8,
+      "blue": 0,
+      "green": 0,
+      "black": 1
+    },
+    "confidence": "Estimated",
+    "notes": "Strawberry red."
+  },
+
+  {
+    "id": 25,
+    "code": "N/A",
+    "name": "Sexy Pink",
+    "family": "Pink",
+    "preview": "#F84D76",
+    "formula20L": {
+      "red": 34,
+      "yellow": 2,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Vibrant pink."
+  },
+
+  {
+    "id": 26,
+    "code": "N/A",
+    "name": "Orange",
+    "family": "Orange",
+    "preview": "#F7902F",
+    "formula20L": {
+      "red": 26,
+      "yellow": 24,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Bright orange."
+  },
+
+  {
+    "id": 27,
+    "code": "N/A",
+    "name": "Deep Orange",
+    "family": "Orange",
+    "preview": "#E36A1F",
+    "formula20L": {
+      "red": 32,
+      "yellow": 22,
+      "blue": 0,
+      "green": 0,
+      "black": 3
+    },
+    "confidence": "Estimated",
+    "notes": "Deep orange."
+  },
+
+  {
+    "id": 28,
+    "code": "9093",
+    "name": "Silver Grey",
+    "family": "Grey",
+    "preview": "#BEC4C8",
+    "formula20L": {
+      "red": 2,
+      "yellow": 2,
+      "blue": 2,
+      "green": 0,
+      "black": 8
+    },
+    "confidence": "Estimated",
+    "notes": "Light silver grey."
+  },
+    {
+    "id": 29,
+    "code": "9095",
+    "name": "Dove Grey",
+    "family": "Grey",
+    "preview": "#A9ADB0",
+    "formula20L": {
+      "red": 2,
+      "yellow": 2,
+      "blue": 3,
+      "green": 0,
+      "black": 14
+    },
+    "confidence": "Estimated",
+    "notes": "Medium neutral grey."
+  },
+
+  {
+    "id": 30,
+    "code": "9097",
+    "name": "Dark Grey",
+    "family": "Grey",
+    "preview": "#707476",
+    "formula20L": {
+      "red": 2,
+      "yellow": 2,
+      "blue": 4,
+      "green": 0,
+      "black": 24
+    },
+    "confidence": "Estimated",
+    "notes": "Dark architectural grey."
+  },
+
+  {
+    "id": 31,
+    "code": "0609",
+    "name": "Chocolate",
+    "family": "Brown",
+    "preview": "#5B3A29",
+    "formula20L": {
+      "red": 18,
+      "yellow": 24,
+      "blue": 0,
+      "green": 0,
+      "black": 18
+    },
+    "confidence": "Estimated",
+    "notes": "Rich chocolate brown."
+  },
+
+  {
+    "id": 32,
+    "code": "3044",
+    "name": "Rich Brown",
+    "family": "Brown",
+    "preview": "#7A4B32",
+    "formula20L": {
+      "red": 14,
+      "yellow": 20,
+      "blue": 0,
+      "green": 0,
+      "black": 14
+    },
+    "confidence": "Estimated",
+    "notes": "Warm rich brown."
+  },
+
+  {
+    "id": 33,
+    "code": "1024",
+    "name": "Red Oxide",
+    "family": "Red",
+    "preview": "#8A3F2B",
+    "formula20L": {
+      "red": 30,
+      "yellow": 12,
+      "blue": 0,
+      "green": 0,
+      "black": 10
+    },
+    "confidence": "Estimated",
+    "notes": "Traditional red oxide."
+  },
+
+  {
+    "id": 34,
+    "code": "1023",
+    "name": "Coral Red",
+    "family": "Red",
+    "preview": "#D55C54",
+    "formula20L": {
+      "red": 28,
+      "yellow": 10,
+      "blue": 0,
+      "green": 0,
+      "black": 2
+    },
+    "confidence": "Estimated",
+    "notes": "Bright coral red."
+  },
+
+  {
+    "id": 35,
+    "code": "5063",
+    "name": "Green Gage",
+    "family": "Green",
+    "preview": "#8E9C5A",
+    "formula20L": {
+      "red": 0,
+      "yellow": 18,
+      "blue": 5,
+      "green": 12,
+      "black": 2
+    },
+    "confidence": "Estimated",
+    "notes": "Muted olive green."
+  },
+
+  {
+    "id": 36,
+    "code": "N/A",
+    "name": "Pale Ivory",
+    "family": "Neutral",
+    "preview": "#F7F0D7",
+    "formula20L": {
+      "red": 1,
+      "yellow": 5,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Soft ivory."
+  },
+
+  {
+    "id": 37,
+    "code": "0003",
+    "name": "Golden Yellow",
+    "family": "Yellow",
+    "preview": "#E8C542",
+    "formula20L": {
+      "red": 2,
+      "yellow": 34,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Strong golden yellow."
+  },
+
+  {
+    "id": 38,
+    "code": "0006",
+    "name": "Post Office Red",
+    "family": "Red",
+    "preview": "#B71C1C",
+    "formula20L": {
+      "red": 38,
+      "yellow": 4,
+      "blue": 0,
+      "green": 0,
+      "black": 2
+    },
+    "confidence": "Estimated",
+    "notes": "Deep vivid red."
+  },
+
+  {
+    "id": 39,
+    "code": "N/A",
+    "name": "Totally Nutmeg",
+    "family": "Brown",
+    "preview": "#9A6A47",
+    "formula20L": {
+      "red": 10,
+      "yellow": 18,
+      "blue": 0,
+      "green": 0,
+      "black": 8
+    },
+    "confidence": "Estimated",
+    "notes": "Warm nutmeg brown."
+  },
+
+  {
+    "id": 40,
+    "code": "N/A",
+    "name": "Sunset Pink",
+    "family": "Pink",
+    "preview": "#F3A08F",
+    "formula20L": {
+      "red": 18,
+      "yellow": 6,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Warm sunset pink."
+  },
+
+  {
+    "id": 41,
+    "code": "N/A",
+    "name": "Pretty Pink",
+    "family": "Pink",
+    "preview": "#F8C3CF",
+    "formula20L": {
+      "red": 14,
+      "yellow": 2,
+      "blue": 0,
+      "green": 0,
+      "black": 0
+    },
+    "confidence": "Estimated",
+    "notes": "Light pastel pink."
+  },
+
+  {
+    "id": 42,
+    "code": "N/A",
+    "name": "Sun Baked Terracotta",
+    "family": "Orange",
+    "preview": "#B96545",
+    "formula20L": {
+      "red": 22,
+      "yellow": 16,
+      "blue": 0,
+      "green": 0,
+      "black": 6
+    },
+    "confidence": "Estimated",
+    "notes": "Earthy terracotta."
+  }
+]
