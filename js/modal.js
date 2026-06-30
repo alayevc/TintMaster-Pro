@@ -24,34 +24,8 @@ const modalHTML = `
 
         <h3>Formula (20 Litres)</h3>
 
-        <table class="formula-table">
-
-            <tr>
-                <td>🔴 Red</td>
-                <td id="redFormula"></td>
-            </tr>
-
-            <tr>
-                <td>🟡 Yellow</td>
-                <td id="yellowFormula"></td>
-            </tr>
-
-            <tr>
-                <td>🔵 Blue</td>
-                <td id="blueFormula"></td>
-            </tr>
-
-            <tr>
-                <td>🟢 Green</td>
-                <td id="greenFormula"></td>
-            </tr>
-
-            <tr>
-                <td>⚫ Black</td>
-                <td id="blackFormula"></td>
-            </tr>
-
-        </table>
+  
+        <div id="formulaBars"></div>
 
         
 

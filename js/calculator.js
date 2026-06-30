@@ -18,20 +18,95 @@ function updateFormula(litres) {
 
     const factor = litres / 20;
 
-    document.getElementById("redFormula").textContent =
-        (currentColour.formula20L.red * factor).toFixed(2) + " ml";
+    const values = {
 
-    document.getElementById("yellowFormula").textContent =
-        (currentColour.formula20L.yellow * factor).toFixed(2) + " ml";
+    red: currentColour.formula20L.red * factor,
 
-    document.getElementById("blueFormula").textContent =
-        (currentColour.formula20L.blue * factor).toFixed(2) + " ml";
+    yellow: currentColour.formula20L.yellow * factor,
 
-    document.getElementById("greenFormula").textContent =
-        (currentColour.formula20L.green * factor).toFixed(2) + " ml";
+    blue: currentColour.formula20L.blue * factor,
 
-    document.getElementById("blackFormula").textContent =
-        (currentColour.formula20L.black * factor).toFixed(2) + " ml";
+    green: currentColour.formula20L.green * factor,
+
+    black: currentColour.formula20L.black * factor
+
+};
+
+const max = Math.max(...Object.values(values),1);
+
+document.getElementById("formulaBars").innerHTML = `
+
+<div class="formulaBar">
+
+<div class="formulaTitle">
+🔴 Red
+<span>${values.red.toFixed(2)} ml</span>
+</div>
+
+<div class="progress">
+<div class="progressFill red"
+style="width:${values.red/max*100}%"></div>
+</div>
+
+</div>
+
+<div class="formulaBar">
+
+<div class="formulaTitle">
+🟡 Yellow
+<span>${values.yellow.toFixed(2)} ml</span>
+</div>
+
+<div class="progress">
+<div class="progressFill yellow"
+style="width:${values.yellow/max*100}%"></div>
+</div>
+
+</div>
+
+<div class="formulaBar">
+
+<div class="formulaTitle">
+🔵 Blue
+<span>${values.blue.toFixed(2)} ml</span>
+</div>
+
+<div class="progress">
+<div class="progressFill blue"
+style="width:${values.blue/max*100}%"></div>
+</div>
+
+</div>
+
+<div class="formulaBar">
+
+<div class="formulaTitle">
+🟢 Green
+<span>${values.green.toFixed(2)} ml</span>
+</div>
+
+<div class="progress">
+<div class="progressFill green"
+style="width:${values.green/max*100}%"></div>
+</div>
+
+</div>
+
+<div class="formulaBar">
+
+<div class="formulaTitle">
+⚫ Black
+<span>${values.black.toFixed(2)} ml</span>
+</div>
+
+<div class="progress">
+<div class="progressFill black"
+style="width:${values.black/max*100}%"></div>
+</div>
+
+</div>
+
+`;
 }
 
 // Standard bucket size selector

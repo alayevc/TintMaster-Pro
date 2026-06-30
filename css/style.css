@@ -367,3 +367,73 @@ body{
 .black-bar{
     background:#424242;
 }
+
+/* ==========================
+   Formula Bars
+========================== */
+
+#formulaBars{
+
+    margin-top:20px;
+
+}
+
+.formulaBar{
+
+    margin-bottom:18px;
+
+}
+
+.formulaTitle{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    font-weight:bold;
+
+    margin-bottom:5px;
+
+}
+
+.progress{
+
+    width:100%;
+
+    height:14px;
+
+    background:#e5e7eb;
+
+    border-radius:8px;
+
+    overflow:hidden;
+
+}
+
+.progressFill{
+
+    height:100%;
+
+    border-radius:8px;
+
+}
+
+.red{
+    background:#d32f2f;
+}
+
+.yellow{
+    background:#fbc02d;
+}
+
+.blue{
+    background:#1976d2;
+}
+
+.green{
+    background:#43a047;
+}
+
+.black{
+    background:#424242;
+}
