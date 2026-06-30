@@ -368,9 +368,9 @@ body{
     background:#424242;
 }
 
-/* ==========================
-   Formula Bars
-========================== */
+/* ====================================
+   Professional Formula Bars
+==================================== */
 
 #formulaBars{
 
@@ -380,7 +380,7 @@ body{
 
 .formulaBar{
 
-    margin-bottom:18px;
+    margin-bottom:22px;
 
 }
 
@@ -390,9 +390,13 @@ body{
 
     justify-content:space-between;
 
-    font-weight:bold;
+    align-items:center;
 
-    margin-bottom:5px;
+    font-weight:600;
+
+    font-size:15px;
+
+    margin-bottom:8px;
 
 }
 
@@ -400,13 +404,15 @@ body{
 
     width:100%;
 
-    height:14px;
+    height:18px;
 
-    background:#e5e7eb;
+    background:#ececec;
 
-    border-radius:8px;
+    border-radius:30px;
 
     overflow:hidden;
+
+    box-shadow:inset 0 2px 5px rgba(0,0,0,.12);
 
 }
 
@@ -414,7 +420,9 @@ body{
 
     height:100%;
 
-    border-radius:8px;
+    border-radius:30px;
+
+    transition:width .5s ease;
 
 }
 
