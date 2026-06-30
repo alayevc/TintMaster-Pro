@@ -12,11 +12,24 @@ const modalHTML = `
             ×
         </button>
 
-        <div id="modalColour" class="modal-colour"></div>
+        <div class="modal-header">
 
-        <h2 id="modalTitle"></h2>
+    <div id="modalColour" class="paint-card">
 
-        <p id="modalCode"></p>
+        <div class="paint-info">
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalCode"></p>
+
+        </div>
+
+    </div>
+
+    <span id="modalFamily" class="family-badge"></span>
+
+</div>
+
 
         <p id="modalFamily"></p>
 
@@ -114,8 +127,42 @@ function openModal(colour){
     document.getElementById("modalCode").textContent =
         "Code: " + colour.code;
 
-    document.getElementById("modalFamily").textContent =
-        "Family: " + colour.family;
+    const familyBadge = document.getElementById("modalFamily");
+
+familyBadge.textContent = colour.family.toUpperCase();
+
+// Give each family its own colour
+const familyColours = {
+
+    "RED":"#d32f2f",
+
+    "BLUE":"#1976d2",
+
+    "GREEN":"#43a047",
+
+    "YELLOW":"#fbc02d",
+
+    "ORANGE":"#f57c00",
+
+    "BROWN":"#795548",
+
+    "GREY":"#757575",
+
+    "GRAY":"#757575",
+
+    "BLACK":"#212121",
+
+    "WHITE":"#9e9e9e",
+
+    "PURPLE":"#7b1fa2",
+
+    "PINK":"#e91e63"
+
+};
+
+// Default colour if family isn't listed
+familyBadge.style.background =
+    familyColours[colour.family.toUpperCase()] || "#1976d2";
 
 // Reset calculator controls
 document.getElementById("bucketSize").value = "20";
