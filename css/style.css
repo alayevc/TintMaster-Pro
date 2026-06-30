@@ -144,13 +144,21 @@ body{
 }
 
 .modal-box{
-    width:92%;
-    max-width:460px;
+
+    width:min(95%,650px);
+
+    max-height:90vh;
+
+    overflow-y:auto;
+
     background:white;
-    border-radius:20px;
-    padding:24px;
-    position:relative;
-    animation:popup .25s ease;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    box-sizing:border-box;
+
 }
 
 @keyframes popup{
@@ -178,11 +186,11 @@ body{
    Paint Sample Card
 =========================== */
 
-.paint-card{
+..paint-card{
 
     width:100%;
 
-    height:240px;
+    height:160px;
 
     border-radius:18px;
 
@@ -204,9 +212,9 @@ body{
 
     background:white;
 
-    padding:14px 18px;
+    padding:10px 16px;
 
-    min-height:65px;
+    min-height:50px;
 
     box-sizing:border-box;
 
@@ -236,7 +244,7 @@ body{
 
     text-align:center;
 
-    margin-bottom:25px;
+    margin-bottom:12px;
 
 }
 
@@ -462,7 +470,7 @@ body{
 
 .formulaBar{
 
-    margin-bottom:22px;
+    margin-bottom:12px;
 
 }
 
@@ -486,7 +494,7 @@ body{
 
     width:100%;
 
-    height:18px;
+    height:12px;
 
     background:#ececec;
 
@@ -591,5 +599,75 @@ body{
     text-align:center;
 
     font-size:14px;
+
+}
+
+/* ==========================
+   Mobile Layout
+========================== */
+
+@media (max-width:768px){
+
+    .modal-box{
+
+        width:96%;
+
+        max-height:95vh;
+
+        padding:12px;
+
+    }
+
+    .paint-card{
+
+        height:130px;
+
+    }
+
+    .paint-info{
+
+        padding:8px 12px;
+
+        min-height:45px;
+
+    }
+
+    .paint-info h2{
+
+        font-size:20px;
+
+    }
+
+    .paint-info p{
+
+        font-size:13px;
+
+    }
+
+    .formulaBar{
+
+        margin-bottom:10px;
+
+    }
+
+    .formulaTitle{
+
+        font-size:14px;
+
+    }
+
+    .progress{
+
+        height:8px;
+
+    }
+
+    button{
+
+        padding:10px 14px;
+
+        font-size:14px;
+
+    }
 
 }
