@@ -1,6 +1,7 @@
 {
   "name": "TintMaster Pro",
   "short_name": "TintMaster",
+  "id": "/TintMaster-Pro/",
   "description": "Professional Paint Tinting Formula Calculator",
   "start_url": "./",
   "scope": "./",
